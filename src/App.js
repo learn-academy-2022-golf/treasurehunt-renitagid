@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { findAllInRenderedTree } from "react-dom/test-utils";
 import "./App.css";
+import Button from "./components/Button";
 import Square from "./components/Square";
 
 const App = () => {
@@ -49,6 +50,7 @@ const App = () => {
           );
         })}
       </div>
+      <Button />
     </>
   );
 };
